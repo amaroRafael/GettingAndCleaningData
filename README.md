@@ -40,27 +40,27 @@ This code uses the following libraries
 
 #### Process variable names
 
-- Read in the variable name data, found in the **features.txt** file, saving as *features*
-- Modify *features* to create more descriptive variable names
+- Variable name data found in the **features.txt** file, it will save as *features*
+- Modify *features* to create the most descriptive variable names
 + Remove parentheses
 + Replace commas with underscores
 + Replace dashes with underscores
-+ For names beginning with "t", expand to "time"
-+ For names beginning with "f", expand to "frequency"
-+ For names containing "BodyBody", replace with "Body"
++ For names beginning with "t" expand to "time"
++ For names beginning with "f" expand to "frequency"
++ For names containing "BodyBody" replace with "Body"
 
 
-#### Read in the activity label data
+#### Activity label data
 
-- Read in the activity labels found in the **activity_labels.txt** file
+- Activity labels found in the **activity_labels.txt** file
 
 
-#### Read in the test and training data
+#### Test and training data
 
-* Appropriately label the data set with descriptive variable names on ingest
+* Appropriately label the data set with descriptive variable names
 + **subject_train.txt** and **subject_test.txt** files receive column name "Subject"
 + **y_train.txt** and **y_test.txt** files receive column name "Activty"
-+ **x_train.txt** and **x_test.txt** files receive column names *features*, processed above
++ **x_train.txt** and **x_test.txt** files receive column names *features* processed above
 
 
 #### Combine various files for the training and the testing data set
